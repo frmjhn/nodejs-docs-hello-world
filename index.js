@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World!!! +  Docker + johan + 2020");
+    response.end("Hello World!!! +  Docker + johan + 202002");
 });
 
 const port = process.env.PORT || 1337;
